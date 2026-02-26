@@ -28,6 +28,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Google oauth client id used to validate incoming google id tokens
+GOOGLE_OAUTH_CLIENT_ID = "879212304117-314ckal25lksul2burlt42na06pta026.apps.googleusercontent.com"
+
 
 # Application definition
 

@@ -29,8 +29,8 @@ urlpatterns = [
     path('api/auth/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/auth/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 
-    # # App routes (will be built out in the next steps)
-    # path('api/auth/', include('accounts.urls')),  # Routes for user registration, login, etc.
+    #  App routes (will be built out in the next steps)
+    path('api/auth/', include('accounts.urls')),  # Routes for user registration, login, etc.
     # path('api/', include('posts.urls')),  # Routes for posts and related actions
 ]
 
