@@ -31,6 +31,6 @@ urlpatterns = [
 
     #  App routes (will be built out in the next steps)
     path('api/auth/', include('accounts.urls')),  # Routes for user registration, login, etc.
-    # path('api/', include('posts.urls')),  # Routes for posts and related actions
+    path('api/', include('posts.urls')),  # Routes for posts and related actions
 ]
 
